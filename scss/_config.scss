@@ -1,12 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script:400,700');
 
 
 
-$primary-color: #444;
-$secondary-color: #eece1a;
+
+$primary-color: #555;
+$secondary-color: #86c232;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
+$home-image: url(../img/background3.jpg);
 $background-opacity: 0.6;
 
 @mixin easeOut {

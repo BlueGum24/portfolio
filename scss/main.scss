@@ -11,7 +11,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: 'Open-sans', sans-serif;
+  font-family: 'Roboto', serif;
   line-height: 1.5;
 }
 
@@ -69,6 +69,9 @@ main {
     overflow: hidden;
     h1 {
       margin-top: 20vh;
+    }
+    span {
+      font-family: 'Oleo Script', cursive;
     }
   }
 }
