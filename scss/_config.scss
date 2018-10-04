@@ -6,10 +6,12 @@
 
 
 $primary-color: #555;
-$secondary-color: #86c232;
+$secondary-color: #95ff00;
 $show-home-image: true;
 $home-image: url(../img/background3.jpg);
 $background-opacity: 0.6;
+$primary-font: 'Roboto', serif;
+$secondary-font: 'Oleo Script', cursive;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
