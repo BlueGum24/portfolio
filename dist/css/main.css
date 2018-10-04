@@ -137,14 +137,17 @@ a {
   color: #fff;
   text-decoration: none; }
 
+.text-secondary {
+  color: #95ff00;
+  font-family: "Oleo Script", cursive; }
+
+img {
+  width: 100%; }
+
 header {
   position: fixed;
   z-index: 2;
   width: 100%; }
-
-.text-secondary {
-  color: #95ff00;
-  font-family: "Oleo Script", cursive; }
 
 main {
   padding: 4rem;
@@ -183,18 +186,20 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #626262;
+    background: #3c3c3c;
     padding: 0.5rem;
     border-bottom: #95ff00 5px solid; }
+    .about-info .job .icon-wrapper {
+      width: 50%;
+      margin: 40px auto; }
 
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
-  .projects img {
-    width: 100%;
+  .projects .project-img {
     border: 3px #fff solid; }
-    .projects img:hover {
+    .projects .project-img:hover {
       opacity: 0.5;
       border-color: #95ff00;
       transition: all 0.5s ease-out; }
