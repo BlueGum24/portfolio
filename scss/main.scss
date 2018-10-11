@@ -72,8 +72,10 @@ main {
   }
 
   .job {
-    background: darken($primary-color, 10);
+    background: lighten($primary-color, 5);
     padding: 2rem;
+    border-radius: 15px 50px;
+    border-top: $secondary-color 5px solid;
     border-bottom: $secondary-color 5px solid;
 
     .icon-wrapper {

@@ -187,8 +187,10 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #3c3c3c;
+    background: #626262;
     padding: 2rem;
+    border-radius: 15px 50px;
+    border-top: #95ff00 5px solid;
     border-bottom: #95ff00 5px solid; }
     .about-info .job .icon-wrapper {
       width: 50%;
